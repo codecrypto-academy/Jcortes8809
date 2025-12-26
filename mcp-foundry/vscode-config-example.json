@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "foundry": {
+      "command": "node",
+      "args": [
+        "C:\\Users\\DEVELOP\\Documents\\Nerv Corp\\Codecrypto\\proyectos_ETH\\PFM\\98_pfm_traza_2025\\mcp-foundry\\run.js"
+      ],
+      "env": {}
+    }
+  }
+}

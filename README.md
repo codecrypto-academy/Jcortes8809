@@ -746,6 +746,60 @@ npm run dev
 
 ---
 
+## 📚 Documentación del Proyecto
+
+### **📖 Documentación Técnica**
+
+#### **Smart Contract**
+- [SMART_CONTRACT_SUMMARY.md](SMART_CONTRACT_SUMMARY.md) - Resumen completo del smart contract
+- [ERRORES_Y_SOLUCIONES.md](ERRORES_Y_SOLUCIONES.md) - Todos los errores encontrados y soluciones
+
+#### **Frontend**
+- [FRONTEND_SUMMARY.md](FRONTEND_SUMMARY.md) - Resumen completo del frontend
+- [web/TESTING.md](web/TESTING.md) - Documentación técnica de tests del frontend
+- **[web/COMO_HACER_TESTS.md](web/COMO_HACER_TESTS.md)** - **Guía práctica paso a paso para ejecutar y crear tests**
+- [SISTEMA_I18N.md](SISTEMA_I18N.md) - Sistema de internacionalización
+
+#### **Testing**
+El proyecto incluye una suite completa de tests:
+
+**Smart Contract**: 37/37 tests pasando ✅ (Hardhat/Foundry)
+
+**Frontend**: 108 tests totales ✅
+- **Unit Tests**: 84/84 pasando (Jest + React Testing Library)
+  - 15 tests de utilidades
+  - 7 tests de constantes
+  - 50 tests de componentes (TokenCard, TransferCard, ConnectButton, LanguageSelector, TraceabilityTree, etc.)
+  - 12 tests de contextos (LanguageContext, Web3Context)
+
+- **E2E Tests**: 24 tests (Playwright)
+  - 5 tests de homepage
+  - 3 tests de navegación
+  - 8 tests de accesibilidad (WCAG 2.1 AA)
+  - 8 tests de performance
+
+**Ejecutar tests del frontend:**
+```bash
+cd web
+
+# Unit tests
+npm test              # Ejecutar unit tests
+npm run test:watch    # Modo desarrollo
+npm run test:coverage # Ver cobertura
+
+# E2E tests
+npm run test:e2e      # Ejecutar E2E tests
+npm run test:e2e:ui   # Modo UI visual
+npm run test:all      # Ejecutar todos los tests (unit + E2E)
+```
+
+**Ver documentación:**
+- [COMO_HACER_TESTS.md](web/COMO_HACER_TESTS.md) - Guía práctica de unit tests
+- [TESTING.md](web/TESTING.md) - Documentación técnica completa
+- [e2e/README.md](web/e2e/README.md) - Guía de E2E tests
+
+---
+
 ## 📚 Recursos Adicionales
 
 ### **Documentación Oficial**

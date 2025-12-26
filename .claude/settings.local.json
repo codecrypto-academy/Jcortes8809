@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(forge test:*)",
+      "Bash(npm run build:*)",
+      "Bash(forge build:*)",
+      "Bash(cat:*)",
+      "Bash(node -e:*)",
+      "Bash(npm install:*)",
+      "Bash(npm pkg set:*)",
+      "Bash(npm test:*)",
+      "Bash(npm run test:coverage:*)",
+      "Bash(mkdir:*)",
+      "Bash(dir:*)",
+      "Bash(node dist/index.js:*)",
+      "Bash(tasklist:*)",
+      "Bash(findstr:*)",
+      "Bash(forge create:*)",
+      "Bash(tee:*)",
+      "Bash(curl:*)"
+    ]
+  }
+}
